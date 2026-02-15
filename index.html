@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Green Initiative</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Top Banner -->
+    <header class="top-banner">
+        <h1 class="site-title">"THE GREEN INITIATIVE"</h1>
+        <p class="site-caption">"Cultivating Sustainable Futures"</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-item" onclick="showPage('home')">Home</a>
+            <a href="#" class="nav-item" onclick="showPage('about')">About</a>
+            <a href="#" class="nav-item" onclick="showPage('activities')">Activities</a>
+            <a href="#" class="nav-item" onclick="showPage('portfolio')">Portfolio</a>
+            <a href="#" class="nav-item" onclick="showPage('contact')">Contact</a>
+            <a href="#" class="nav-item" onclick="showPage('donate')">Donate</a>
+        </div>
+    </nav>
+
+    <!-- Image Row -->
+    <div class="image-row">
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400" alt="Nature">
+            <div class="image-overlay">Climate Action</div>
+        </div>
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=400" alt="Community">
+            <div class="image-overlay">Community</div>
+        </div>
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400" alt="Renewable">
+            <div class="image-overlay">Renewable Energy</div>
+        </div>
+        <div class="image-box">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400" alt="Forest">
+            <div class="image-overlay">Conservation</div>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <main class="content-section">
+        
+        <!-- Home Page -->
+        <div id="home" class="page active">
+            <div class="content-box">
+                <h2>Welcome to The Green Initiative</h2>
+                <p>We are an NGO based in London dedicated to promoting sustainable development and climate change adaptation. Through innovative partnerships and community outreach, we work to create a more sustainable future for all.</p>
+                <p>Our mission is to support paradigm shifts in both climate mitigation and adaptation efforts by offering flexible financial instruments and partnering with businesses to mobilize institutional investors at scale.</p>
+                <p>Explore our website to learn more about our activities, view our project portfolio, or get involved through donations and partnerships.</p>
+                <div style="margin-top: 30px;">
+                    <button class="btn" onclick="showPage('about')">Learn More</button>
+                    <button class="btn" onclick="showPage('donate')" style="margin-left: 10px; background: #20b2aa;">Donate Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Page -->
+        <div id="about" class="page">
+            <div class="content-box">
+                <h2>About Us</h2>
+                <p>The Green Initiative is a non-governmental organization headquartered in London, United Kingdom. Founded with a vision to bridge the gap between climate science and community action, we have grown into a leading voice in sustainable development.</p>
+                <p>We depend mainly on donor funding to achieve our day-to-day activities, working tirelessly to depict various climate activities in an attractive manner to increase sensitization and promote the consumption of our services.</p>
+                <p>Our team consists of environmental scientists, policy experts, and community organizers who work together to design and implement effective climate solutions.</p>
+                
+                <h3 style="color: #d2691e; margin-top: 30px; margin-bottom: 15px;">Our Impact</h3>
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <h3>50+ Projects</h3>
+                        <p>Successfully funded and implemented across the UK and internationally</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>£2M+ Raised</h3>
+                        <p>In donations and partnerships to support climate action</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>10,000+ People</h3>
+                        <p>Engaged through our community outreach programs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Activities Page -->
+        <div id="activities" class="page">
+            <div class="content-box">
+                <h2>Our Activities</h2>
+                <p>We engage in a diverse range of activities designed to address climate change at multiple levels:</p>
+                
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <h3>🌍 Climate Mitigation</h3>
+                        <p>Supporting projects that reduce greenhouse gas emissions through renewable energy, reforestation, and sustainable practices.</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>🤝🏾Community Outreach</h3>
+                        <p>Engaging local communities through education programs, workshops, and collaborative sustainability projects.</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>📚 Curriculum Review</h3>
+                        <p>Working with schools to integrate climate science and sustainability into educational curricula.</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>💼 Business Partnerships</h3>
+                        <p>Connecting corporate partners with meaningful ESG and climate investment opportunities.</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>💰 Financial Instruments</h3>
+                        <p>Designing innovative funding mechanisms including green bonds and impact investments.</p>
+                    </div>
+                    <div class="activity-card">
+                        <h3>🌱 Adaptation Projects</h3>
+                        <p>Implementing climate-resilient infrastructure in vulnerable communities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Page -->
+        <div id="portfolio" class="page">
+            <div class="content-box">
+                <h2>Our Portfolio</h2>
+                <p>Explore our past and ongoing projects that demonstrate tangible impact:</p>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400" alt="Solar Project">
+                        <div class="portfolio-content">
+                            <h3 style="color: #20b2aa;">Solar for Schools</h3>
+                            <p>Installing solar panels in 25 rural schools, reducing energy costs by 60%.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400" alt="Forest Project">
+                        <div class="portfolio-content">
+                            <h3 style="color: #20b2aa;">Urban Forest</h3>
+                            <p>Planting 10,000 trees across London to improve air quality.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=400" alt="Youth Project">
+                        <div class="portfolio-content">
+                            <h3 style="color: #20b2aa;">Youth Leaders</h3>
+                            <p>Training 500 young people as climate advocates.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=400" alt="Wind Project">
+                        <div class="portfolio-content">
+                            <h3 style="color: #20b2aa;">Wind Co-op</h3>
+                            <p>Community-owned wind turbines generating local income.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=400" alt="Wetland Project">
+                        <div class="portfolio-content">
+                            <h3 style="color: #20b2aa;">Wetland Restoration</h3>
+                            <p>Restoring 50 hectares for flood protection.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=400" alt="Farm Project">
+                        <div class="portfolio-content">
+                            <h3 style="color: #20b2aa;">Sustainable Farms</h3>
+                            <p>Supporting 200 farmers in regenerative agriculture.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact" class="page">
+            <div class="content-box">
+                <h2>Contact Us</h2>
+                <p>Interested in partnering or have questions? Reach out to us:</p>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 20px;">
+                    <div>
+                        <h3 style="color: #d2691e; margin-bottom: 15px;">Contact Information</h3>
+                        <p><strong>📍 Address:</strong><br>123 Green Street<br>London, EC1A 1BB<br>United Kingdom</p>
+                        <p style="margin-top: 15px;"><strong>📧 Email:</strong><br>info@greeninitiative.org</p>
+                        <p style="margin-top: 15px;"><strong>📞 Phone:</strong><br>+44 (0) 20 7946 0958</p>
+                    </div>
+                    
+                    <form onsubmit="event.preventDefault(); alert('Message sent!'); this.reset();">
+                        <div class="form-group">
+                            <label>Name *</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Interest</label>
+                            <select>
+                                <option>Partnership</option>
+                                <option>Donation</option>
+                                <option>General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Message *</label>
+                            <textarea rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--This is the Donate Page -->
+        <div id="donate" class="page">
+            <div class="content-box">
+                <h2>Support Our Mission</h2>
+                <p>Your contribution directly funds climate action projects worldwide. Choose a donation level:</p>
+                
+                <div class="donation-grid">
+                    <div class="donation-card">
+                        <h3>£25</h3>
+                        <p style="margin-bottom: 15px;">Plants 5 native trees</p>
+                        <button class="btn" onclick="alert('Thank you for £25 donation!')">Donate</button>
+                    </div>
+                    <div class="donation-card">
+                        <h3>£100</h3>
+                        <p style="margin-bottom: 15px;">Solar power for a classroom</p>
+                        <button class="btn" onclick="alert('Thank you for £100 donation!')">Donate</button>
+                    </div>
+                    <div class="donation-card">
+                        <h3>£500</h3>
+                        <p style="margin-bottom: 15px;">Community workshop series</p>
+                        <button class="btn" onclick="alert('Thank you for £500 donation!')">Donate</button>
+                    </div>
+                    <div class="donation-card">
+                        <h3>Custom</h3>
+                        <p style="margin-bottom: 15px;">Corporate partnership</p>
+                        <button class="btn" onclick="showPage('contact')">Contact Us</button>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 30px; padding: 20px; background: #34495e; border-radius: 8px; text-align: center;">
+                    <p>All donations are tax-deductible. Registered Charity No. 1234567</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-box">
+            <h3>"Social Media"</h3>
+            <p><svg width="16" height="16" viewBox="0 0 16 16" fill="#1877F2"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg> @GreenInitiativeUK<br><svg width="16" height="16" viewBox="0 0 24 24" fill="#000000"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> @GreenInitiativeUK<br><svg width="16" height="16" viewBox="0 0 16 16" fill="#0A66C2"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg> @GreenInitiativeUK<br><svg width="16" height="16" viewBox="0 0 16 16" fill="url(#insta)"><defs><linearGradient id="insta" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stop-color="#FFDC80"/><stop offset="50%" stop-color="#F56040"/><stop offset="100%" stop-color="#C13584"/></linearGradient></defs><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.087 3.27.222 2.76.42c-.526.204-.973.478-1.418.923S.624 2.234.42 2.76c-.198.51-.333 1.09-.372 1.942C.028 5.556 0 5.829 0 8s.028 2.444.048 3.297c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.418s.892.719 1.418.923c.51.198 1.09.333 1.942.372.853.039 1.126.048 3.297.048s2.444-.009 3.297-.048c.852-.039 1.433-.174 1.942-.372.526-.204.973-.478 1.418-.923s.719-.892.923-1.418c.198-.51.333-1.09.372-1.942.039-.853.048-1.126.048-3.297s-.009-2.444-.048-3.297c-.039-.852-.174-1.433-.372-1.942-.204-.526-.478-.973-.923-1.418S13.766.624 13.24.42c-.51-.198-1.09-.333-1.942-.372C10.444.01 10.171 0 8 0zm0 1.44c2.136 0 2.388.009 3.233.047.78.036 1.203.166 1.485.276.374.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.485.038.845.047 1.097.047 3.233s-.009 2.388-.047 3.233c-.036.78-.166 1.203-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.453-.92.598-.282.11-.705.24-1.485.276-.845.038-1.097.047-3.233.047s-2.388-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276-.374-.145-.64-.318-.92-.598-.28-.28-.453-.546-.598-.92-.11-.282-.24-.705-.276-1.485-.038-.845-.047-1.097-.047-3.233s.009-2.388.047-3.233c.036-.78.166-1.203.276-1.485.145-.374.318-.64.598-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.845-.038 1.097-.047 3.233-.047zM8 3.892a4.108 4.108 0 1 0 0 8.216 4.108 4.108 0 0 0 0-8.216zm0 6.775a2.667 2.667 0 1 1 0-5.334 2.667 2.667 0 0 1 0 5.334zm6.538-8.671a.96.96 0 1 1-1.92 0 .96.96 0 0 1 1.92 0z"/></svg> @TheGreenInitiative</p>
+        </div>
+        <div class="footer-box">
+            <h3>"Address"</h3>
+            <p>123 Green Street<br>London, EC1A 1BB<br>United Kingdom<br>info@greeninitiative.org</p>
+        </div>
+        <div class="footer-box">
+            <h3>"Copyright"</h3>
+            <p>&copy; 2026 The Green Initiative<br>All Rights Reserved<br>Registered Charity<br>No. 1234567<br><span style="font-size: 0.8rem; font-weight: bold; opacity: 0.85; font-style: italic; margin-top: 8px; display: block; color: #FFD700;">Made by Denzel ✍️</span></p>
+        </div>
+    </footer>
+
+    <script>
+        function showPage(pageId) {
+            // Hide all pages
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+            
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
